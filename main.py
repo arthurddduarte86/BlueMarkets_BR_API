@@ -37,6 +37,6 @@ def backup(len:int):
     i=0
     while i < len :
         yield (df.loc[i].to_dict()) 
-        time.sleep(0.1)
+        #time.sleep(0.1)
         i+=1
         
